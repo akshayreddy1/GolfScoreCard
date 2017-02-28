@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        tools:text="hole 1 :"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/holeLabel"
+        android:textSize="24sp"
+        android:layout_weight="3"/>
+
+    <TextView
+        tools:text="0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/strokeCount"
+        android:textSize="24sp"
+        android:layout_weight="2"/>
+
+    <Button
+        android:text="-"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/removeStrokeButton"
+        android:textSize="24sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="+"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addStrokeButton"
+        android:textSize="24sp"
+        android:layout_weight="1"/>
+</LinearLayout>
